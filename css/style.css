@@ -20,14 +20,94 @@
   background-repeat: no-repeat;
 }
 
-#header>p{
+#header>h1{
+  line-height: 1.4;
   margin-top: 1.4em;
   color: #fff;
-  font-size: 2.1em;
+  font-weight: 100;
+  
 }
 
 #header strong{
-  color: #fff;
+  font-weight: 700;
   opacity: 1;
   
+}
+
+#top-menu{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+#top-menu h1{
+  font-weight: 400;
+  z-index: 2;
+}
+#top-menu table, .food-top{
+  width: 100%;
+  height: 280px;
+  text-align: center;
+  
+
+}
+
+.food-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+
+}
+
+#breakfast{
+  background-image: url(../images/foodtop/breakfast.jpg);
+}
+
+
+#lunch{
+  
+  background-image: url(../images/foodtop/lunch.jpg);
+}
+#lunch-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, .5);
+  
+
+}
+
+#overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+#dinner{
+  background-image: url(../images/foodtop/dinner.jpg);
+}
+
+#top-menu table{
+  border-spacing: 0px;
+}
+
+#top-menu tr:first-child{
+  color: #222;
+  background-color: #ccc;
+}
+
+#top-menu tr:last-child{
+  background-color: #f15a29;
+  color: #fff;
 }
