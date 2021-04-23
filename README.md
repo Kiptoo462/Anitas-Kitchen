@@ -4,6 +4,8 @@
 ## Description
 This is a landing page application for Anitas-Kitchen displaying the type of delicious meals and drinks as well as accommondations enjoyed at Anitas-Kitchen. The purpose of this web page is to help me utilize various concepts learnt during the week i.e tables,navigation,flex e.t.c.
 ## Setup/Installation Requirements
+
+### Requirements
 * Visual Studio Code
 * Google Chrome
 * Git
@@ -19,6 +21,8 @@ This is a landing page application for Anitas-Kitchen displaying the type of del
   ```sh
   code .
   ```
+
+3. Open `index.html` with browser
 
 ## Technologies Used
 HTML and CSS
