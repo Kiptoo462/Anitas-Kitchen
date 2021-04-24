@@ -111,3 +111,22 @@
   background-color: #f15a29;
   color: #fff;
 }
+#fast-food{
+  display:flex;
+  flex-direction: none;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 8em;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 450;
+}
+ #fast-food table {
+   padding: 1em;
+  box-shadow: 4px 4px 8px #ccc, -4px -4px 8px #ccc;
+}
+#FF {
+  margin: left;
+  margin: 50px;
+  padding-bottom: 0px;
+}
