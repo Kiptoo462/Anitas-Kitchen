@@ -5,7 +5,26 @@
 
 }
 
+#icon{
+  position: absolute;
+  left: 5em;
+  top: 5em;
+}
+
+#icon span{
+  display: block;
+  width: 70px;
+  height: .28em;
+  background-color: #fff;
+  
+}
+ 
+#icon span:nth-child(2){
+  margin: 1em auto;
+} 
+
 #header{
+  position: relative;
   padding: 2em;
   height: 550px;
   width: 100%;
