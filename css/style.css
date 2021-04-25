@@ -145,6 +145,21 @@
    padding: 1em;
   box-shadow: 4px 4px 8px #ccc, -4px -4px 8px #ccc;
 }
+
+.button{
+  text-decoration: none;
+  border: 2px solid #f15a29;
+  display: block;
+  width: fit-content;
+  padding: .7em;
+  margin-top: 2em;
+  color: #f15a29;
+  border-radius: 3px;
+}
+
+#DD .button{
+  float: right;
+}
 #FF {
   margin: left;
   margin: 50px;
@@ -176,6 +191,7 @@ margin-right: 5em;
   font-size: 15px;
 }
 .ff {
+  color: #f15a29;
   background-color: #fff;
 }
 #burger {
@@ -185,6 +201,13 @@ margin-right: 5em;
   background-image: url("../images/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.b-names{
+  color: #f15a29;
+}
+.b-images{
+  color: #f15a29;
+  font-size: 1.4em;
 }
 .bottom-menu {
   background-color: #fff;
@@ -256,6 +279,8 @@ padding-top: 1.1em;
 }
 
 #happy tr td{
+  color: #f15a29;
+  font-size: 1.7em;
   padding-right: 1em;
   
 }
@@ -297,4 +322,25 @@ line-height: 1.2em;
 }
 #footer h5 {
   color: #ddd;
+}
+
+.social-footer{
+  width: 50px;
+  height: 50px;
+  color: #f15a29;
+  margin: 2em 0em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#social-fb{
+  background-image: url('../images/footerlogos/facebook.png');
+}
+
+#social-tw{
+  background-image: url('../images/footerlogos/twitter.png');
+}
+
+#social-pi{
+  background-image: url('../images/footerlogos/pinterest.png');
 }
