@@ -184,7 +184,7 @@ margin-right: 5em;
 margin-bottom: 2em;
 padding-top: 1.1em;
 }
-/* .customers {
+.customers {
   display: flex;
   justify-content: center;
   width: 60%;
@@ -194,7 +194,7 @@ padding-top: 1.1em;
   box-shadow: 3px 3px 5px #ddd, -3px -3px 5px #ddd;
   margin-top: 70px;
   margin-bottom: 40px;
-} */
+}
 #CC {
   text-align: center;
   max-width: 40%;
@@ -204,7 +204,7 @@ padding-top: 1.1em;
 
 #CC h3{
   color: #f15a29;
-/* }
+}
 #happy{
   display: flex;
   text-align: center;
@@ -239,4 +239,4 @@ padding-top: 1.1em;
 #happy tr td{
   padding-right: 1em;
   
-} */
+}
